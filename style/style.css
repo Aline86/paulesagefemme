@@ -10,922 +10,186 @@
   font-family: "Quattrocento Sans", sans-serif;
 }
 
-@media only screen and (min-width: 1300px) {
-  .name_psy,
-  .top,
-  .adresse p {
-    font-size: 30px;
-    color: rgb(0, 0, 0) !important;
-
-    font-family: "Montserrat", sans-serif;
-    opacity: initial !important;
-    font-weight: 600;
-  }
-  .top {
-    margin-bottom: 20px;
-    font-size: 20px;
-  }
-  .button_acc:hover {
-    background-color: #ddb570;
-  }
-  .left {
-    text-align: left !important;
-  }
-  .in {
-    width: 200px;
-    height: 200px;
-    background-image: url("../img/ordi.jpg");
-    background-size: cover;
-    background-position: center;
-    padding: 30px !important;
-    border-radius: 50%;
-  }
-  .smaller_pic {
-    width: 200px;
-    height: 200px;
-    margin-top: 25px;
-    border-radius: 50%;
-    object-fit: cover;
-  }
-  .in {
-    border: none;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .top {
-    margin-top: 20px;
-  }
-  .none {
-    display: none;
-  }
-  .container {
-    width: 90%;
-    margin: 0 auto;
-  }
-  .under:hover {
-    font-weight: 1000 !important;
-  }
-  .absolute {
-    z-index: 99999;
-    position: fixed;
-    color: black;
-    font-weight: bold;
-    left: 2vw;
-    top: 10px;
-    font-size: 1.4em;
-    font-family: "Marck Script", cursive;
-  }
-  .englobe::before {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    border-top: 2px solid black;
-    border-left: 2px solid black;
-
-    left: 5vh;
-    z-index: -9999;
-  }
-  .englobe::after {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    border-bottom: 2px solid black;
-    border-right: 2px solid black;
-    right: 5vh;
-    margin-top: 1vh;
-    z-index: -9999;
-  }
-  .rond {
-    width: 75px;
-    height: 75px;
-    border-radius: 50%;
-    margin-top: 1vh;
-  }
-  .column {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .burger {
-    display: none;
-  }
-
-  .background {
-    margin: 0;
-    height: 100vh;
-    width: 100%;
-    background: linear-gradient(#f8dea3, #ddb570);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .nav_pc {
-    position: fixed;
-    width: 100vw;
-    height: 70px;
-    background-image: url("../img/menu4.jpg");
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
-    z-index: 9999;
-  }
-  .ul_pc {
-    display: flex;
-    flex-direction: row;
-    width: 50%;
-    margin: 0 auto;
-  }
-  .li_pc {
-    width: 33.33%;
-    list-style: none;
-    line-height: 70px;
-    text-align: center;
-  }
-  .a {
-    color: black;
-    font-size: 1.5em;
-    font-family: "Quattrocento Sans", sans-serif;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
-  .underline:after {
-    background: none repeat scroll 0 0 transparent;
-
-    content: "";
-    display: block;
-    height: 1px;
-    left: 50%;
-    position: relative;
-    margin-top: -17px;
-    background: #fff;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
-  }
-  .underline:hover:after {
-    width: 100%;
-    left: 0;
-  }
-  .none {
-    background: transparent;
-  }
-  .inside {
-    width: 88vw;
-    height: 90%;
-    margin-top: 2vh;
-    background-color: white;
-    /*  background-image: url("../img/bandeau4.jpg");*/
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 2px;
-    border: 3px solid gray;
-  }
-  /* ACCUEIL */
-  h2 {
-    font-size: 25px;
-    text-align: center;
-    font-family: "Quattrocento Sans", sans-serif;
-    font-weight: lighter;
-  }
-  h1 {
-    font-size: 25px;
-    text-align: center;
-    font-family: "Quattrocento Sans", sans-serif;
-    font-weight: lighter;
-  }
-  h3 {
-    font-size: 20px;
-    text-align: center;
-    font-family: "Quattrocento Sans", sans-serif;
-    font-weight: lighter;
-    text-transform: uppercase;
-    color: rgb(121, 34, 34);
-  }
-
-  hr {
-    color: rgb(121, 34, 34);
-  }
-  .name {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: end;
-    font-weight: lighter;
-    font-size: 30px;
-    height: 100vh;
-  }
-  .adresse {
-    margin-top: 5vh;
-    text-align: center;
-  }
-
-  p {
-    font-size: 0.9em;
-    text-align: center;
-    font-family: "Quattrocento Sans", sans-serif;
-    font-weight: lighter;
-    margin-bottom: 20px;
-  }
-
-  .a_button {
-    display: block;
-    margin: 0 auto;
-  }
-
-  button {
-    margin-top: 2vh;
-    width: 20vw;
-    height: 6vh;
-    line-height: 6vh;
-    background-color: white;
-    border: none;
-    border-radius: 3px;
-    color: black;
-    font-size: 25px;
-    cursor: pointer;
-    font-weight: lighter;
-    border: 1px solid black;
-  }
-
-  .tel {
-    font-size: 25px;
-    font-weight: bold;
-    margin-top: 2vh;
-    color: black;
-    text-decoration: none;
-  }
-  /* FORMATION */
-  .image {
-    display: block;
-
-    margin: 0 auto;
-
-    border-radius: 50%;
-  }
-  .un {
-    margin-top: 10px;
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-  }
-  .set_top {
-    margin-top: 50px;
-  }
-  .deux {
-    width: 150px;
-    height: 150px;
-    object-fit: contain;
-  }
-  .pres {
-    display: flex;
-    gap: 30px;
-  }
-  .inside_pres {
-    width: 50%;
-    font-size: 1.4rem;
-    border: 1px solid lightgray;
-    padding-bottom: 5%;
-    padding-left: 2%;
-    padding-right: 2%;
-    margin-top: 5%;
-    border-radius: 3px;
-  }
-  .full_screen {
-    width: 80%;
-    padding: 2%;
-    padding-bottom: 5%;
-    border: 1px solid lightgray;
-    font-size: 1.4rem;
-    margin-top: 50px;
-    border-radius: 3px;
-    text-align: justify;
-    margin: 0 auto;
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-  .less {
-    margin-bottom: 30px;
-    font-size: 1.6rem !important;
-  }
-  #formation {
-    padding-top: 150px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .title {
-    font-size: 1.6em;
-    margin-top: 7vh;
-  }
-  .seance {
-    border: 1px solid lightgray;
-    padding-bottom: 15px;
-  }
-  .more1 {
-    margin-top: 1.5vh;
-  }
-  .more2 {
-    margin-top: 14.8vh;
-  }
-  hr {
-    width: 40%;
-    margin: 0 auto;
-    margin-bottom: 25px;
-  }
-  .under_title {
-    font-size: 18px;
-    margin-bottom: 15px;
-    margin-top: 15px;
-    font-family: "Quattrocento Sans", sans-serif;
-  }
-  .pra {
-    font-size: 0.8em;
-    font-family: "Quattrocento Sans", sans-serif;
-  }
-  /* A PROPOS */
-  #apropos {
-    padding-top: 100px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .flex {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-  }
-
-  .the {
-    font-size: 1.8em;
-  }
-  .forma {
-    text-align: left;
-  }
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    width: 100%;
-  }
-  .image_gyneco > img,
-  .image_perineal > img {
-    width: 500px;
-    height: 500px;
-    object-fit: cover;
-    border-radius: 50%;
-    box-shadow: 5px 5px 10px rgb(155, 154, 132);
-  }
-  .image_gyneco,
-  .image_perineal {
-    display: flex;
-    flex-direction: column;
-
-    justify-content: center;
-  }
-  .image_perineal {
-    align-items: end;
-    margin-right: 30px;
-  }
-  .image_gyneco {
-    align-items: start;
-    margin-left: 30px;
-  }
-  .text_gyn {
-    text-align: left;
-    font-size: 1.4rem;
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-  .text_un,
-  .text_deux {
-    border: 1px solid lightgray;
-    margin-bottom: 50px;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 50px;
-    border-radius: 3px;
-  }
-  .text_deux {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .justify {
-    text-align: justify;
-  }
-  /* CONTACT */
-  #contact {
-    height: 100vh;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .inner {
-    background-color: white;
-    width: 33%;
-    height: auto;
-    margin: 2%;
-    padding: 2%;
-    border: 1px solid rgb(179, 127, 127);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: auto;
-    border-radius: 3px;
-  }
-  .contact {
-    font-size: 1.8em;
-  }
-  .conv {
-    font-size: 1.8rem;
-  }
-  .t-one {
-    margin-top: 20px;
-  }
-  .left {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-  .fas {
-    font-size: 30px;
-  }
-  .more_contact {
-    margin-top: 12.2vh !important;
-  }
-  .doctol {
-    width: 22vw;
-    height: 75px;
-    object-fit: cover;
-    margin-top: 10px;
-  }
-  .the,
-  .inline_b {
-    margin-top: 10px;
-  }
+.name {
+  height: 100%;
+  overflow-y: scroll;
 }
-@media only screen and (max-width: 1300px) {
-  .underline {
-    text-decoration: underline !important;
-  }
-  .prec u {
-    text-decoration: none;
-  }
-  .addm {
-    margin-bottom: 60px;
-  }
-  .seance {
-    border: 1px solid lightgrey;
-    padding: 5px;
-  }
+.in {
+  width: 200px;
+  height: 200px;
+  background-image: url("../img/ordi.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 30px !important;
+  border-radius: 50%;
+}
+.image {
+  width: 150px;
+  border-radius: 50%;
+}
+.background {
+  margin: 0;
+  height: 100vh;
 
-  .container {
-    width: 75%;
-    margin: 0 auto;
-  }
-  .rond {
-    display: none;
-  }
+  width: 100%;
+  background: linear-gradient(#f8dea3, #ddb570);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+.nav_pc {
+  position: fixed;
+  width: 100vw;
+  height: 70px;
+  background-image: url("../img/menu4.jpg");
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  z-index: 9999;
+}
 
-  .right,
-  .absolute {
-    display: none;
-  }
-  .under_title {
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 15px;
-    margin-top: 15px;
-  }
-  .title {
-    font-size: 20px;
+.underline:after {
+  background: none repeat scroll 0 0 transparent;
 
-    margin-top: 2vh;
-  }
-  hr {
-    width: 60%;
-    margin: 0 auto;
-    margin-bottom: 25px;
-  }
-  .a {
-    color: white;
-    font-size: 1.5em;
-    font-family: "Quattrocento Sans", sans-serif;
-    text-decoration: none;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 50%;
+  position: relative;
+  margin-top: -17px;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.underline:hover:after {
+  width: 100%;
+  left: 0;
+}
+.none {
+  background: transparent;
+}
+.inside {
+  width: 88vw;
+  height: 100%;
+  padding-top: 30px;
+  background-color: white;
+  /*  background-image: url("../img/bandeau4.jpg");*/
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  border: 3px solid gray;
+}
+/* ACCUEIL */
+h2 {
+  font-size: 25px;
+  text-align: center;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: lighter;
+}
+h1 {
+  font-size: 25px;
+  text-align: center;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: lighter;
+}
+h3 {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: rgb(121, 34, 34);
+}
+
+hr {
+  color: rgb(121, 34, 34);
+}
+.name {
+  position: absolute;
+  width: 80%;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: lighter;
+  font-size: 30px;
+  height: 100%;
+}
+.adresse {
+  margin-top: 5vh;
+  text-align: center;
+}
+
+p {
+  font-size: 0.9em;
+  text-align: center;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+.a_button {
+  display: block;
+  margin: 0 auto;
+}
+
+button {
+  margin-top: 2vh;
+  width: 20vw;
+  height: 6vh;
+  line-height: 6vh;
+  background-color: white;
+  border: none;
+  border-radius: 3px;
+  color: black;
+  font-size: 25px;
+  cursor: pointer;
+  font-weight: lighter;
+  border: 1px solid black;
+}
+
+.tel {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 2vh;
+  color: black;
+  text-decoration: none;
+}
+
+.background {
+  padding-top: 5vh;
+  height: 100vh;
+  justify-content: center;
+}
+p {
+  font-size: 0.6em;
+}
+.name {
+  position: absolute;
+  width: 80%;
+  top: 50%;
+}
+.image {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+
+@media only screen and (max-width: 700px) {
+  .image {
+    position: absolute;
+    width: 75px;
   }
   .background {
-    height: 100vh;
-    width: 100vw;
-    background: linear-gradient(#f8dea3, #ddb570);
-    padding-top: 20vh;
-  }
-  .nav_pc {
-    display: none;
-  }
-  .inside {
-    width: 80vw;
-    height: 60vh;
-    background-image: url("../img/menu4.jpg");
-
-    margin: 0 auto;
-    margin-top: 0;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: 3px solid gray;
-  }
-
-  ul {
-    list-style: none;
-  }
-
-  body {
-    font-family: "Poppins", sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-
-  .burger {
-    background: #fbfbfb;
-    border-radius: 2px;
-    margin: 15px;
-    z-index: 99;
-    padding: 10px;
-    position: fixed;
-    right: 6.5vw;
-    top: 15px;
-    border: 1px solid black;
-  }
-
-  .navicon {
-    cursor: pointer;
-    display: block;
-    width: 45px;
-    height: 1px;
-    border-radius: 15px;
-    background: black;
-    position: relative;
-  }
-
-  .navicon::before {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 100%;
-    background: black;
-    top: 12px;
-    border-radius: 15px;
-    position: absolute;
-    transition: all 0.3s ease-in-out;
-  }
-
-  .navicon::after {
-    content: "";
-    border-radius: 15px;
-    display: block;
-    width: 100%;
-    height: 100%;
-    background: black;
-    top: -12px;
-    position: absolute;
-    transition: all 0.3s ease-in-out;
-  }
-
-  .menu-btn {
-    display: none;
-  }
-
-  .menu-icon {
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 20px;
-    height: 20px;
-  }
-
-  .menu-btn:checked ~ .menu-icon .navicon {
-    background: transparent;
-  }
-
-  .menu-btn:checked ~ .menu-icon .navicon:before {
-    transform: rotate(-45deg);
-  }
-
-  .menu-btn:checked ~ .menu-icon .navicon:after {
-    transform: rotate(45deg);
-  }
-
-  .menu-btn:checked ~ .menu-icon .navicon:after,
-  .menu-btn:checked ~ .menu-icon .navicon:before {
-    top: 0;
-  }
-
-  .nav {
-    z-index: 99;
-    position: fixed;
-    right: -50%;
-    width: 50%;
-    min-height: 30vh;
-
-    background-color: #ffeacf;
-    display: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.8rem;
-    transition: ease-in-out 800ms;
-    margin-top: 25px;
-  }
-
-  .nav li {
-    text-transform: uppercase;
-    padding: 8px 0;
-    text-align: center;
-  }
-  .a {
-    color: black;
-  }
-  .menu-btn:checked ~ .nav {
-    right: 0;
-    transition: ease-in-out 800ms;
-  }
-  /* ACCUEIL */
-  .a_button {
-    display: block;
-    margin: 0;
-  }
-  button {
-    margin-top: 2vh;
-    width: 200px;
-    height: 5vh;
-    line-height: 5vh;
-    background-color: white;
-    border: none;
-    border-radius: 3px;
-    color: black;
-    font-size: 20px;
-    cursor: pointer;
-    border: 1px solid black;
-    padding: 0;
-  }
-  h2 {
-    font-size: 20px;
-    text-align: center;
-    font-family: "Quattrocento Sans", sans-serif;
-    font-weight: lighter;
-  }
-  h1 {
-    font-size: 15px;
-    text-align: center;
-    font-family: "Quattrocento Sans", sans-serif;
-    font-weight: lighter;
-  }
-  h3 {
-    font-size: 12px;
-    text-align: center;
-    font-family: "Quattrocento Sans", sans-serif;
-    font-weight: lighter;
-  }
-  .psycho1 {
-    font-size: 20px;
-    margin-top: 2vh;
-  }
-  .adresse p {
-    font-size: 20px;
-    margin-bottom: 1vh;
-  }
-  .image {
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
-    border-radius: 50%;
-  }
-  .deux {
-    object-fit: contain;
-  }
-  .un {
-    object-fit: cover;
-  }
-
-  .inside_pres {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: justify;
-    font-size: 20px;
-  }
-  h3 {
-    text-transform: uppercase;
-    font-size: 30px !important;
-  }
-  b {
-    font-size: 25px !important;
-    margin-top: 20px;
-  }
-  .cabinet {
-    font-size: 25px;
-  }
-  .name_psy {
-    font-size: 25px;
-    color: black !important;
-  }
-  .set_top {
-    margin-top: 30px;
-  }
-  .less {
-    font-size: 25px !important;
-    margin-bottom: 20px;
-  }
-  .full_screen {
-    font-size: 20px;
-    text-align: justify;
+    height: 140vh;
   }
   .name {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .adresse {
-    margin-top: 2vh;
-    text-align: center;
-  }
-  .in {
-    border: none;
-    padding: 0;
-  }
-  p {
-    font-size: 14px;
-    text-align: center;
-    font-family: "Quattrocento Sans", sans-serif;
-    font-weight: lighter;
-  }
-  .symbole {
-    width: 30px;
-    height: 30px;
-    object-fit: cover;
-    margin: 0 auto;
-    margin-bottom: 10px;
-  }
-  .tel {
-    margin-top: 2vh;
-    font-size: 20px;
-    font-weight: bold;
-  }
-  .smaller_pic {
-    width: 30px;
-    height: 30px;
-    margin-top: 25px;
-  }
-  /* PRATIQUE */
-  #pratique {
-    margin-top: 2vh;
-    height: auto;
-  }
-  .pra {
-    font-size: 15px;
-  }
-  /* THERAPIE */
-  #therapie {
-    height: auto;
-    margin-top: 2vh;
-    height: auto;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .flex {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-  .child,
-  .teenager,
-  .adult {
-    width: 100%;
-    padding: 0%;
-  }
-  .the {
-    font-size: 20px;
-
-    margin-top: 2vh;
-  }
-
-  /* CABINET */
-  #cabinet {
-    height: auto;
-    text-align: center;
-  }
-
-  .pic {
-    width: 100%;
-    background-color: rgb(176, 233, 255);
-    height: 250px;
-    margin: 0 auto;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-  }
-  /* CONTACT */
-  #contact {
-    height: auto;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px;
-  }
-  .inner {
-    background-color: white;
-    width: 100%;
-    height: auto;
-    margin: 2%;
-    border: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: auto;
-    margin-top: 50px;
-  }
-  .contact {
-    font-size: 1.5em;
-    line-height: 1.5em;
-  }
-  .fas {
-    font-size: 25px;
-  }
-
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(1, auto);
-    grid-template-rows: repeat(4, auto);
-  }
-
-  .image_perineal > img,
-  .image_gyneco > img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 50%;
-  }
-  .image_gyneco,
-  .image_perineal {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .image_perineal {
-    grid-row-start: 3;
-    grid-row-end: 4;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  .image_gyneco {
-    margin-top: 40px;
-    margin-bottom: 30px;
-  }
-  .text_deux {
-    grid-row-start: 4;
-    grid-row-end: 5;
-  }
-  .text_deux p,
-  .text_un p {
-    font-size: 20px !important;
-    text-align: justify;
-  }
-  .text_gyn {
-    font-size: 20px !important;
-  }
-  .text_gyn li {
-    list-style: disc;
-    margin-left: 50px;
-    margin-top: 30px;
+    top: 70%;
   }
 }
