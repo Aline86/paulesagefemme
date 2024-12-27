@@ -161,7 +161,9 @@ button {
   color: black;
   text-decoration: none;
 }
-
+.psycho1 {
+  margin-bottom: 30px;
+}
 .background {
   padding-top: 5vh;
   height: 100vh;
